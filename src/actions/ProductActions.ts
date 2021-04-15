@@ -3,7 +3,7 @@ import axios from 'axios'
 import {Dispatch} from 'redux'
 import { changeLoadingAC, setProductsAC } from '../redux/productReducer'
 import { setServiceMessageAC } from '../redux/serviceReducer';
-const baseUrl = "http://localhost:5000/products"
+const baseUrl = "https://alek-my-shop-back.herokuapp.com/products"
 
 export const setProductsTC = () => (dispatch: Dispatch) => {
     dispatch(changeLoadingAC(false))

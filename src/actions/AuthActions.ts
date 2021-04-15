@@ -2,7 +2,7 @@ import axios from 'axios'
 import {Dispatch} from 'redux'
 import {setUserAC} from '../redux/authReducer'
 import {setServiceMessageAC} from '../redux/serviceReducer'
-const baseUrl = "http://localhost:5000/auth"
+const baseUrl = "https://alek-my-shop-back.herokuapp.com/auth"
 
 export const createUser = (name:string, email:string, password:string, avatar:string) => async(dispatch:Dispatch) => {
     try{

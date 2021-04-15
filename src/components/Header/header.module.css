@@ -1,0 +1,93 @@
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    align-items: center;
+    background-image: url("https://berez.org/uploads/posts/2020-03/1584418352_s1200.jpg");
+}
+
+.header_info{
+    display: flex;
+    align-items: center;
+}
+
+.header_contact{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border: 3px solid #C0C0C0;
+    box-shadow: 0px 0px 18px 12px rgba(34, 60, 80, 0.2); 
+}
+
+.header_contact h5{
+    font-size: 14px;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social_icons a{
+    color: #FA4901;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.contact_mail{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.social_icons a:hover{
+    color: #047DD6;
+}
+
+.header_contact > span {
+    margin-bottom: 5px;
+}
+
+.header_contact > button {
+    border: 1px solid #C3091C;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+    padding: 3px 5px;
+}
+
+.shop_basket{
+    border: 3px solid #C0C0C0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 18px 12px rgba(34, 60, 80, 0.2); 
+}
+
+.basket_btn{
+    padding: 3px 15px;
+    background-color: #DD5044;
+    color: white;
+    border: 2px solid #C3091C;
+    border-radius: 100px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.basket_btn:hover{
+    background-color: transparent;
+    color: #DD5044;
+}
+
+.count_goods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo > h1{
+    color: white;
+    font-size: 80px;
+}

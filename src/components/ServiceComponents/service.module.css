@@ -1,0 +1,10 @@
+.service__wrapper{
+    position: fixed;
+    bottom: 10vh;
+    right: 1vw;
+    background-color: #F94A00;
+    color: white;
+    border-radius: 1000px;
+    border: 3px solid #930000;
+    padding: 10px 20px;
+}

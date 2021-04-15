@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
+import {BrowserRouter} from 'react-router-dom'
+import {useDispatch} from 'react-redux'
+import {setProductsTC} from './actions/ProductActions'
+import Header from './components/Header/Header'
+import Nav from './components/Nav/Nav'
+import RouteComponent from './components/Body/RouteComponent/RouteComponent'
+import Footer from './components/Footer/Footer'
+import { auth } from './actions/AuthActions';
+import Service from './components/ServiceComponents/Service';
 
 function App() {
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(setProductsTC())
+    dispatch(auth())
+  },[dispatch])
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Header/>
+      <Nav/>
+      <RouteComponent/>
+      <Footer/>
+      <Service/>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.footer{
+    background-color: #1E1E1E;
+    padding: 15px 50px;
+}
+
+.copy_container{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.copy_container i {
+    color: red;
+}

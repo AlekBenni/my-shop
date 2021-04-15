@@ -1,0 +1,63 @@
+.btn{
+    display: block;
+    border: 2px solid #F5F404;
+    background-color: #F5F404;
+    padding: 3px 15px;
+    border-radius: 100px;
+    color: #1E1E1E;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #F5F404;
+}
+
+.input_wrapper{
+    background-color: #EBEBEB;
+    padding: 5px 10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.input{
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.btn_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.send_wrapper > button{
+    border: 1px solid red;
+    padding: 3px 15px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.send_wrapper > button:hover{
+    background-color: red;
+    color: white;
+}
+
+.redBlock{
+    color: red;
+    text-align: center;
+}
+

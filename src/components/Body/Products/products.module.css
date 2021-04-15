@@ -1,0 +1,162 @@
+.title{
+    text-align: center;
+}
+
+.title__margin{
+    text-align: center;
+    margin-top: 30px;    
+}
+
+.wrapper{
+    border: 2px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wrapper:hover{
+    box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+    border: none;
+}
+
+.img{
+    width: 100%;
+}
+
+.desc_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.btn_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border: 1px solid #EBEBEB;
+    padding: 3px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.3s ease;
+    font-size: 13px;
+}
+
+.btn__nav{
+    border: 1px solid #46AF05;
+    padding: 3px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.3s ease;   
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn__nav:hover{
+    background-color: #46AF05;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #EBEBEB;
+}
+
+.btn__productWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn__product{
+    width: 80%;
+    border: 3px solid #EBEBEB;
+    padding: 15px 0;
+    margin: 10px auto;
+    border-radius: 100px;
+    background-color: transparent;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn__product:hover{
+    background-color: #EBEBEB;
+}
+
+.wrapper__product{
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgProduct, .contentProduct{
+    width: 45%;
+}
+
+.goBack{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.goBack button{
+    padding: 5px 50px;
+    border: 1px solid #F81805;
+    color: white;
+    background-color: #F81805;
+    border-radius: 100px;
+    transition: 0.3s ease;
+}
+
+.goBack button:hover{
+    background-color: transparent;
+    color: black
+}
+
+.navigationCategory{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 15px 0;
+}
+
+.search_wrapper{
+    width: 50%;
+}
+
+.sort__wrapper{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5px 15px;
+    background-color: #EBEBEB;
+    border-radius: 100px;
+}
+
+.sort__product{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.paginate__btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.paginate__btnActive{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 3px;
+    background-color: #C90000;
+    color: white;   
+}
+
+.pagination__title{
+    margin-right: 20px;
+}

@@ -1,0 +1,135 @@
+.admin__top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper__user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin__ava{
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid #D3D3D3;
+    margin-right: 20px;
+}
+
+.admin__body{
+    display: flex;
+    justify-content: space-between;   
+    margin: 20px;
+}
+
+.admin__addPost{
+    width: 45%;
+    padding: 10px;
+    box-shadow: 0px 0px 12px 9px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+}
+
+.admin__changePost{
+    width: 45%;
+    padding: 10px;   
+    box-shadow: 0px 0px 12px 9px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+}
+
+.wrapper__title_body{
+    text-align: center;
+}
+
+.wrapper__title_body > h4 {
+    font-size: 18px;
+}
+
+.input__wrapper{
+    margin-top: 10px;
+    background-color: #333333;
+    padding: 5px 40px;
+    border-radius: 100px;
+}
+
+.input__wrapper input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.input__wrapper select{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.admin__btnWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 10px 0;
+}
+
+.admin__btnWrapper button{
+    background-color: #0089D2;
+    color: white;
+    border: 1px solid #0089D2;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.admin__btnWrapper button:hover{
+    background-color: transparent;
+    color: #1E1E1E;
+}
+
+.redBlock{
+    text-align: center;
+    color: red;
+}
+
+.select__product{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.option__product{
+    padding: 20px 0;
+    outline: 2px solid red;
+}
+
+.admin__editProduct{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 10px 0;
+}
+
+.admin__editProduct button{
+    background-color: #0089D2;
+    color: white;
+    border: 1px solid #0089D2;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;   
+}
+
+.admin__editProduct button:hover{
+    background-color: transparent;
+    color: #1E1E1E;
+}
+
+.admin__editProduct > .btn__red{
+    background-color: #F83301;
+    color: white;
+    border: 1px solid #F83301;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;  
+}

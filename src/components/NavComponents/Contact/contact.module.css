@@ -1,0 +1,12 @@
+.contact__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map{
+    width:50%;
+}
+
+.contact{
+    width:50%;
+}
